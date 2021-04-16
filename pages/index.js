@@ -4,7 +4,7 @@ function Home() {
     return (
     <>
     <h1>Home com teste</h1>
-    <Link href="/Empreendimento">
+    <Link href="/Empreendimentos">
         <a>Pagina dos empreendimentos</a>
 
     </Link>
