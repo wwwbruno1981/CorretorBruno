@@ -1,4 +1,4 @@
-import Link from "react";
+import Link from "next/link";
 
 function Empreendimenos() {
     return (
