@@ -1,14 +1,13 @@
-import Link from "next/link";
+import Nav from '../components/nav'
+import Footer from '../components/footer'
 
-function Empreendimenos() {
-    return (
+export default function Index() {
+
+  return (
     <>
-    <h1>Empreendimentos</h1>
-    <Link href="/">
-        <a>Pagina dos Home</a>
-
-    </Link>
+    <Nav />
+    
+    <Footer />
     </>
-    )
+  )
 }
-export default Empreendimenos

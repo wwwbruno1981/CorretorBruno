@@ -1,22 +1,13 @@
-import Link from "next/link";
+import Home from '../components/home'
+import Footer from '../components/footer'
 
-function Home() {
-    return (
+export default function Index() {
+
+  return (
     <>
-    <h1>Home com teste</h1>
-    <div>
-    <Link href="/Empreendimentos">
-        <a>Pagina dos empreendimentos</a>
-
-    </Link>
-    </div>
-    <div>
-    <Link href="/Carrossel">
-        <a>Pagina do Carrossel</a>
-
-    </Link>
-    </div>
+    <Home />
+    
+    <Footer />
     </>
-    )
+  )
 }
-export default Home
