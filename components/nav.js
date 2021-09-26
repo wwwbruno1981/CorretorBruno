@@ -7,7 +7,7 @@ const navigation = [
     { name: 'Inicio', href: '/'},
     { name: ' Empreendimentos', href: '/empreendimentos' },
     { name: ' Sobre nós', href: '/sobre' },
-    
+    { name: ' Contato', href: '/contato' },
     
   ]
   
@@ -85,7 +85,7 @@ const navigation = [
                 <div className="pt-4 pb-3 border-t border-gray-700">
                   <div className="flex items-center px-5">
                     <div className="ml-3">
-                      <div className="text-base font-medium leading-none text-white">Portfólio</div>
+                      <div className="text-base font-medium leading-none text-white">Corretor Bruno</div>
            
                     </div>
                   </div>

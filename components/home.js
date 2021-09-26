@@ -21,7 +21,7 @@ function Showcase() {
          <div className="min-h-full flex justify-end text-opacity-50 bg-transparent px-4 sm:px-6 lg:px-8">
             <div className="max-w-md w-full space-y-8">
             <h1 className="text-center text-4xl tracking-tight font-sans sm:text-4xl md:text-4xl">
-              <span className="block text-purple-500 xl:inline">Consultoria Imobiliaria</span>{' '} 
+              <span className="block font-extrabold text-purple-500 xl:inline">Consultoria Imobiliaria</span>{' '} 
               <span className="block text-white xl:inline">Segura & Inteligente</span>
             </h1>
 
