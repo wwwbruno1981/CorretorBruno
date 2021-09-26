@@ -55,7 +55,7 @@ function Galery() {
     return (
 <>
     {/* Image gallery */}
-    <div className="pt-10 bg-gray-100">
+    <div className="pt-10 bg-gradient-to-r from-gray-600 via-black to-gray-600">
     <div className="pb-50 shadow-2xl bg-gradient-to-r from-black via-gray-700 to-black rounded-lg flex items-center justify-center w-full h-24 sm:px-6 lg:px-8">
             <a className="text-white flex items-center justify-center">
             <h2 className="text-4xl font-serif text-center text-yellow-300">Modernidade e segurança em um só lugar.</h2>
