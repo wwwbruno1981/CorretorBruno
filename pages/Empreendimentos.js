@@ -1,10 +1,9 @@
 import Nav from '../components/nav';
-import Footer from '../components/footer';
+import Footer from '../components/footer'
 import Folder from '../components/folder';
 
-export default function Empreendimentos() {
-
-  return (
+function Empreendimentos() {
+ return (
     <>
     <Nav />
       <Folder />
@@ -12,3 +11,4 @@ export default function Empreendimentos() {
     </>
   )
 }
+export default Empreendimentos 
