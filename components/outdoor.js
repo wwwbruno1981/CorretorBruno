@@ -1,3 +1,6 @@
+import Nav from './nav'
+import Footer from './footer'
+
 const product = {
    
     images: [
@@ -19,17 +22,11 @@ const product = {
       },
     ],
    }
+export default function Outdoor() {
 
-function Galery() {
-    return (
-<>
-    {/* Image gallery */}
-    <div className="pt-10 bg-gradient-to-r from-black via-gray-700 to-black">
-    <div className="pb-50 shadow-2xl bg-gradient-to-r from-black via-gray-700 to-black rounded-lg flex items-center justify-center w-full h-24 sm:px-6 lg:px-8">
-            <a className="text-white flex items-center justify-center">
-            <h2 className="text-4xl font-serif text-center text-yellow-300">Modernidade e segurança em um só lugar.</h2>
-            </a>
-            </div>
+  return (
+    <>
+    <Nav />
     <div className="mt-6 pb-10 max-w-2xl mx-auto sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div className="hidden aspect-w-3 aspect-h-4 rounded-lg overflow-hidden lg:block">
             <img
@@ -62,8 +59,7 @@ function Galery() {
             />
           </div>
         </div>
-      </div> 
-        </>
-    )
+    <Footer />
+    </>
+  )
 }
-export default Galery

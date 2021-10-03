@@ -1,4 +1,7 @@
-import Nav from '../components/nav';
+
+
+
+/*import Nav from '../components/nav';
 import Barra from '../components/barra';
 import Galery from '../components/galery';
 import Folder from '../components/folder';
@@ -96,4 +99,4 @@ function Showcase() {
           )
         }
 
-export default Showcase
+export default Showcase */
