@@ -14,7 +14,7 @@ const navigation = [
   function Nav() {
     return (
       <div>
-        <Disclosure as="nav" className="shadow-2xl bg-gradient-to-r from-black via-gray-700 to-black">
+        <Disclosure as="nav" className=" shadow-2xl bg-gradient-to-r from-gray-700 via-black to-gray-700">
           {({ open }) => (
             <>
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -1,21 +1,10 @@
 import Nav from '../components/nav'
 import Footer from '../components/footer'
-import prisma from '../lib/prisma';
 import React, { useState } from 'react';
 import Router from 'next/router';
 
 
-export const getStaticProps = async () => {
-  const feed = await prisma.post.findMany({
-    where: { published: true },
-    include: {
-      author: {
-        select: { name: true },
-      },
-    },
-  });
-  return { props: { feed } };
-};
+
 
 const Submits = () => {
   const [title, setTitle] = useState('');

@@ -6,20 +6,39 @@
     "start": "next start"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.4",
     "@headlessui/react": "^1.4.1",
     "@heroicons/react": "^1.0.4",
-    "@prisma/client": "^3.2.1",
     "audit": "^0.0.6",
+    "axios": "^0.24.0",
     "fix": "^0.0.6",
     "next": "latest",
     "pg-promise": "^10.11.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "swr": "^1.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
-    "prisma": "^3.2.1",
     "tailwindcss": "^2.2.15"
-  }
+  },
+  "name": "corretorbruno",
+  "description": "This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwbruno1981/CorretorBruno.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwwbruno1981/CorretorBruno/issues"
+  },
+  "homepage": "https://github.com/wwwbruno1981/CorretorBruno#readme"
 }
